@@ -34,7 +34,6 @@ public class Registrasi extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         tfEmail = new javax.swing.JTextField();
         pfPassword = new javax.swing.JPasswordField();
-        tglLahir = new com.toedter.calendar.JDateChooser();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
 
@@ -81,7 +80,6 @@ public class Registrasi extends javax.swing.JFrame {
         });
         getContentPane().add(tfEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 240, 200, 20));
         getContentPane().add(pfPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 210, 200, -1));
-        getContentPane().add(tglLahir, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 270, 200, -1));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -152,6 +150,5 @@ public class Registrasi extends javax.swing.JFrame {
     private javax.swing.JPasswordField pfPassword;
     private javax.swing.JTextField tfEmail;
     private javax.swing.JTextField tfUsername;
-    private com.toedter.calendar.JDateChooser tglLahir;
     // End of variables declaration//GEN-END:variables
 }
